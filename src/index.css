@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+#setflex {
+  display: flex;
+  flex-direction: column;
+}
+
+#navside {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.Header {
+  color: white;
+  padding: 20%;
+}
+.nav-pills .nav-link.active,#sidelink.active, .nav-pills .show>.nav-link {
+  color: #727172;
+  background-color:  white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: initial;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: initial;
+}
+.nav-pill {
+  list-style-type: none;
+}
+#sidelink{
+  color: white;
+  padding: 20px 12px;
+  font-size:1rem;
+}
+
+#navdetail {
+  margin-left: 200px;
+  height: 100vh;
+}
