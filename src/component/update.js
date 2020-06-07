@@ -65,17 +65,6 @@ class Modal extends Component {
                 }
             })
         }
-        // axios.put(`http://localhost:3000/PIgraph/${this.state.id}`, {
-        //     color: "kkkk",
-        //     data: "value",
-        //     label: "label"
-        // })
-        //     .then(response => {
-        //         console.log(response)
-        //     })
-        //     .catch(error => {
-        //         console.log(error)
-        //     })
 
         // this.update = this.update.bind(this)
     }
